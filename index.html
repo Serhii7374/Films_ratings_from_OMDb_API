@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Films Rated</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <input type="text" placeholder="Write movie name" class="searchText">
+        <input type="button" value="Search" id="search" onclick="search()">
+    </nav>
+
+    <main class="films"></main>
+
+    <div class="w3-container">
+        <div id="id01" class="w3-modal">
+            <div class="w3-modal-content" onclick="closeModal()">
+                <div class="w3-container">
+                    <div class="main">
+                        <div class="poster"></div>
+                        <div class="text">
+                            <div class="movieName"></div>
+                            <div class="genre"></div>
+                            <div class="description"></div>
+                            <div class="writtenBy"></div>
+                            <div class="derictedBy"></div>
+                            <div class="starring"></div>
+                            <div class="boxOfice"></div>
+                            <div class="Awards"></div>
+                            <div class="ratings"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,163 @@
+@font-face {
+    font-family: 'Sriracha';
+    src: url('Sriracha-Regular.ttf')
+  }
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Sriracha', sans-serif;
+    background-color: lightgrey;
+}
+
+nav {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+nav input {
+    width: 600px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid silver;
+}
+
+#search {
+    margin-left: 20px;
+    color: white;
+    background-color: rgb(0, 156, 0);
+}
+
+#search:hover {
+    cursor: pointer;
+    background-color: green;
+}
+
+input[type='text'] {
+    padding-left: 10px;
+}
+
+input[type='text']:focus {
+    box-shadow: 0px 0px 10px 0px #3C93D5;
+}
+
+.films {
+    width: 1250px;
+    margin: 20px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.film {
+    width: 300px;
+    height: 565px;
+    border-radius: 5px;
+    border: 1px solid silver;
+    margin-bottom: 40px;
+}
+
+.img {
+    width: 100%;
+    height: 400px;
+    border-radius: 5px 5px 0 0;
+    background-size: cover;
+}
+
+.name {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(158, 158, 158);
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.inf {
+    width: 100%;
+    height: 65px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: white;
+}
+
+.type {
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.year {
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.film input {
+    width: 100%;
+    height: 40px;
+    color: white;
+    background-color: rgb(0, 156, 0);
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid silver;
+}
+
+.film input:hover {
+    cursor: pointer;
+    background-color: green;
+}
+
+.w3-modal-content {
+    margin-top: -70px;
+    width: 1200px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    width: 1150px;
+    height: 550px;
+    display: flex;
+}
+
+.poster {
+    width: 400px;
+    height: 100%;
+    background-size: cover;
+}
+
+.text {
+    width: 725px;
+    height: 100%;
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.movieName {
+    height: 50px;
+    background-color: rgb(172, 172, 172);
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.genre {
+    font-size: 12px;
+}
